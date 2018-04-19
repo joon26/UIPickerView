@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
-
+   
     @IBOutlet var myPickerView: UIPickerView!
     @IBOutlet var myLabel: UILabel!
     
@@ -22,7 +22,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     }
     
     // UIPickerViewDataSource method
-    func numberOfCompionents(in pickerView: UIPickerView) -> Int { return 2
+    func numberOfComponents(in pickerView: UIPickerView) -> Int { return 2
     }
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
